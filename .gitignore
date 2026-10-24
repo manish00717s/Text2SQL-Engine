@@ -1,0 +1,150 @@
+# ==================================
+# Environment & Secrets
+# ==================================
+.env
+.env.local
+*.key
+secrets.toml
+.streamlit/secrets.toml
+
+# ==================================
+# Python
+# ==================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / Packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# ==================================
+# Database Files
+# ==================================
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# ==================================
+# IDE & Editors
+# ==================================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ==================================
+# Operating System
+# ==================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+.directory
+.Trash-*
+
+# ==================================
+# Logs
+# ==================================
+*.log
+logs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==================================
+# Temporary Files
+# ==================================
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~.nib
+
+# ==================================
+# Project Specific
+# ==================================
+# Keep example env file but ignore the real one
+!.env.example
+
+# Ignore large data files if any
+data/
+datasets/
+
+# Ignore any local configuration
+local_settings.py
+
+# Ignore session files
+.kiro/
